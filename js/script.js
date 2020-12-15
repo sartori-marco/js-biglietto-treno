@@ -44,4 +44,4 @@ else if (eta > 64){
   prezzoBigliettoTotale = sconto40Totale;
 }
 
-document.getElementById('biglietto').innerHTML= 'Il costo del suo biglietto è' + ' ' + prezzoBigliettoTotale + ' ' + '€';
+document.getElementById('biglietto').innerHTML= 'Il costo del suo biglietto è' + ' ' + prezzoBigliettoTotale.toFixed(2) + ' ' + '€';
